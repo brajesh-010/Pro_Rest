@@ -121,8 +121,9 @@ ul li a:hover{
 #logo { 
     float: left;
     display: inline-block;
-  }
-  .contact {
+}
+
+.contact {
     padding: 130px 0;
 }
 
