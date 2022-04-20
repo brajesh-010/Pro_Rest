@@ -29,7 +29,6 @@ body{
 
 #logo { 
     float: left;
-    display: inline-block;
 }
 
 .logo{
@@ -234,4 +233,50 @@ ul li a:hover{
     color: antiquewhite;
     padding-left: 20px;
     padding-top: 20px;
+}
+
+.gallery h1{
+    font-family: Poppins;
+    font-size: 50px;
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.gallery img{
+    width: 100%;
+    height: 100%;
+}
+
+.gallery .single{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 10px;
+    align-content: center;
+}
+
+.gallery .doubles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 10px;
+    align-content: center;
+}
+
+.gallery .hrzt{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 10px;
+    align-content: center;
+}
+
+.gallery .last{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 10px;
+    align-content: center;
 }
