@@ -1,0 +1,32 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background: #0F2027;  
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+  overflow: visible;
+}
+h1{
+   color: #ffffff;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: 860;
+   font-size: 62px;
+   padding-left: 500px;
+   line-height: 72px;
+  text-transform: uppercase;
+  background-color: black;
+  letter-spacing: -2px;
+  margin: 30px 0 50px;
+}
+
+.tips{
+  align-content: center;
+  margin: 100px 110px;
+}
+.tips img{
+        width: 430px;
+        padding: 90px;
+        filter: grayscale();
+        ;
+
+}
